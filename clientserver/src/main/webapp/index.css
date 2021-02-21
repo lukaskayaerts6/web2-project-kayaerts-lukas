@@ -1,0 +1,70 @@
+main {
+    line-height: 1rem;
+    margin: 3rem;
+}
+body {
+    margin: 0;
+    background: #ffffff;
+}
+article {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #59e6ff;
+  color: 000000;
+}
+
+h1 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 2rem;
+}
+h2 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.4rem;
+}
+
+h3 {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 0rem;
+    margin: 1.5rem;
+}
+form input {
+    background-color: #ffffff;
+    border-radius: 0.3rem;
+    width: 20rem;
+    height: 1.2rem;
+    margin: 0.5rem;
+}
+.verzend {
+    margin: 1.2rem 0 0 0.5rem;
+    width: 9rem;
+    height: 2rem;
+    background-color: #d1d1d1;
+}
